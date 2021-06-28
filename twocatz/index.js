@@ -18,16 +18,16 @@ async function getCat(){
 let catpic1 = await getCat()
 let catpic2 = await getCat()
 
-async function getNames() {
-    var names = ["Shreya", "Emily", "Fifi", "Beau", "Evelyn", "Julia", "Daniel", "Fardeen"]
-    var random_value = Math.floor(names.length * Math.random())
-    var resultname = names[random_value]
+function getNames() {
+    var names = ["Shreya", "Emily", "Fifi", "Beau", "Evelyn", "Julia", "Daniel", "Fardeen"];
+    var random_value = Math.floor(names.length * Math.random());
+    var resultname = names[random_value];
 
-    return resultname 
+    return resultname;
 }
 
-let name1 = getNames()
-let name2 = getNames()
+let name1 = getNames();
+let name2 = getNames();
 
     context.res = {
         // status: 200, /* Defaults to 200 */
