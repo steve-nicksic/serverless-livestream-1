@@ -2,8 +2,6 @@
 
 ## About Me
 
-My name is Steve and I am a student in the Serverless Camp for Bit Project learning software development.
-
 ## The Premise
 
 ## Tools used
