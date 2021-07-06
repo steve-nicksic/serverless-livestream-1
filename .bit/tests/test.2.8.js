@@ -22,6 +22,7 @@ if (uri[0] == null) {
         console.log("Yay! 🎉 You're right, you guessed the generation correctly AND returned the right song!")
     } else {
         console.log("Try again! We didn't get the correct generation/age back or the song.")
+        console.log(`We received "${result}" instead of "We guessed you're part of this generation: GenY! Happy listening! https://open.spotify.com/track/1Je1IMUlBXcx1Fz0WE7oPT?si=a04bbdf6ec4948b9"`)
         process.exit(1)
     }
 })().catch( e => { console.error("Try again! We got this error when trying to make a request: " + e); process.exit(1) })
