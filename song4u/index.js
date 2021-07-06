@@ -30,7 +30,7 @@ module.exports = async function (context, req) {
 
     let song = songs[generation];
 
-    let response = `Sent from your Twilio trial account - We guessed you're part of this generation: ${generation} Happy listening! ${song}`
+    let response = `We guessed you're part of this generation: ${generation} Happy listening! ${song}`
 
     
     context.res = {
