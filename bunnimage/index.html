@@ -7,11 +7,20 @@
   </head>
   <body>
       <div>
-              <h1 id="h1">Give your code some love ❤️</h1>
-              <form>
+              <!-- <h1 id="h1">Give your code some love ❤️</h1>
+              <form >
                   <label>Code: </label>
                   <input type="text" id="name" name="name" /><br>
                   <input value="Submit" type="button" onclick="getImage()" />
+              </form>
+              <br/>
+              <div id="output"></div> -->
+
+              <h1 id="h1">Bunnimage</h1>
+              <form onsubmit="getImage(event)" enctype="multipart/form-data">
+                  <input type="file" accept="image/x-png,image/jpeg" name="image" />
+                  <input id="name" placeholder="Enter your file's name"/><br>
+                  <input type="submit" />
               </form>
               <br/>
               <div id="output"></div>
