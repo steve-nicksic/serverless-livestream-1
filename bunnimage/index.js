@@ -5,11 +5,11 @@ function getImage(event){
     //get image and filename uploaded by user via the form
     let nameInput = document.getElementById("username");
     let fileInput = document.getElementById("image");
+    let file = fileInput.files[0];
 
     var payload = new FormData(bunniForm);
     console.log(payload);
 
-    const file = fileInput.files[0];
     payload.append("file", file);
     $('#output').text("Thanks!");
     
