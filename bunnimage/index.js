@@ -24,7 +24,7 @@ function getImage(event){
 
 
             //Create request to AZURE function
-            const response = await fetch(url, {
+            const response = fetch(url, {
                 method: 'POST',
                 headers: {
                     'codename': nameInput.value
