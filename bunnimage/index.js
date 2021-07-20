@@ -61,7 +61,7 @@ function getImage(event){
 
 async function downloadImage() {
     let username = document.getElementById("downloadusername").value;
-    if (username != "") {
+    if (username != '') {
 
         try {
             let url = "https://baddabing.azurewebsites.net/api/bunnimage-download?code=qoa8KWjLzWabOJxaeU43ozi8w3yiI6sbqdHg0Ed750PyMacCqtaSyw=="
