@@ -58,3 +58,33 @@ function getImage(event){
     //Create request to AZURE function
     
 }
+
+async function downloadImage() {
+    let username = document.getElementById("downloadusername").value;
+    if (username != "") {
+
+        try {
+            let url = "https://baddabing.azurewebsites.net/api/bunnimage-download?code=qoa8KWjLzWabOJxaeU43ozi8w3yiI6sbqdHg0Ed750PyMacCqtaSyw=="
+        console.log("Got file name, making GET request to download image")
+        
+        const response = await fetch(url, {
+            method: 'GET',
+            headers: {
+                'username': username
+            }
+        })
+
+        let data = await response.json();
+        let imageUrl = data.downloadUri
+
+        console.log("Made GET request successfully")
+
+        window.open(imageUrl, "_self")
+        } catch (error) {
+            alert(error)
+        }
+        
+    }else{
+        alert("No name error.")
+    }
+}
