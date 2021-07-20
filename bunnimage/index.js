@@ -15,7 +15,7 @@ function getImage(event){
     
 
     //to validate that name isn't null:
-    if (document.getElementById("name").value !="") {
+    if (document.getElementById("username").value !="") {
 
         try {
             let url = "https://baddabing.azurewebsites.net/api/bunnimage-upload?code=pHIOnA9AwG6iv0VfVaSVvFFgTTiUuyp4SqoaCRdwFJ2pyxbtD68LTA=="
@@ -60,7 +60,7 @@ function getImage(event){
 }
 
 async function downloadImage() {
-    let username = document.getElementById("downloadusername").value;
+    let username = document.getElementById("downloadusername").value
     if (username != '') {
 
         try {
