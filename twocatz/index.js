@@ -4,7 +4,7 @@ module.exports = async function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
 
 async function getCat(name){
-    let endpoint = "https://cataas.com/cat/cute/says/" + name + "data:image/png;base64";
+    let endpoint = "https://cataas.com/cat/cute/says/" + name;
     let resp = await fetch(endpoint, {
         method: 'GET'
     });
