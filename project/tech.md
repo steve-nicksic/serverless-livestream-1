@@ -17,6 +17,9 @@
 - [include how it will interact with other components of your project listed above/below]
 - API to gather videos to send in email message to user
 
+**SendGrid**
+- API to send emails
+
 ### Packages/Libraries/Databases
 
 **Cosmos DB**
@@ -26,9 +29,17 @@
 
 ### Front-end Languages
 
-**Name of Language**
+**HTML**
 - [replace with bullet list of what purpose(s) it serves for my project]
 - [include how it will interact with other components of your project listed above/below]
+- Used to create basic structure of landing page
+- Basic sign-up form
+
+**CSS**
+- Basic Styling for web page, emails and forms
+
+**JavaScript**
+- The functions for the application
 
 ### Flowchart
 
