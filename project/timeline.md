@@ -25,6 +25,7 @@
 - Write HTTP function and Timer functions along with setting up APIs for YouTube and SendGrid. Create Azure database and complete webpage with HTML and CSS.
 
 ### Webpage
+
 ### Description
 - Create an HTML webpage that has a subscription form for the user to enter an email address
 
