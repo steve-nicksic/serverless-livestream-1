@@ -1,0 +1,36 @@
+header {
+   text-align: center;
+}
+
+form {
+    border: 3px solid #154BB0
+}
+
+.container {
+    padding: 20px;
+    background-color: #2B74FC;
+}
+
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+
+  input[type=submit] {
+    background-color: #FC8E38;
+    color: white;
+    border: none;
+  }
+
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+  
